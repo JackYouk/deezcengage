@@ -6,9 +6,10 @@
 Install `pdfkit` system deps using this guide: [wkhtmltopdf downloads](https://wkhtmltopdf.org/downloads.html).
 
 ## Installation
-1. Install the required Python packages:
+1. Install the required Python packages and browser binaries:
    ```bash
    pip3 install -r requirements
+   python3 -m playwright install
    ```
 
 ## Configuration
